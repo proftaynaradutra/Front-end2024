@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    --cor-primaria:#5eb3c3;
+    --cor-secundaria: #444644;
+    --espaco-margem: 0px 100px;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: var(--cor-primaria);
+    padding: var(--espaco-margem);
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap:25px;   
+}
+
+
+nav ul li a {
+    text-decoration: none; /* remover underline de links */
+    color: white;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    background-color: var(--cor-primaria);  
+    gap:80px;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+.main-col1, .main-col2{
+    width: 50%;
+}
+
+.main-col1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-col2{
+    display: flex;
+    flex-direction: column;
+
+    color:white;
+}
+
+.main-titulo{
+    font-size: 30px;
+}
+
+.main-descricao{
+    font-size:14px;
+    width: 50%;
+    margin-top:20px;
+}
+
+.secao1 .linha1, .secao2 .linha1{
+    background-color: var(--cor-secundaria);
+    color:white;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    padding: var(--espaco-margem);
+}
+
+.secao2 .linha1, .secao2 .linha2{
+    background-color: #f4f9f9;
+}
+
+.secao2 .linha1{
+    color: var(--cor-secundaria);
+}
+
+.secao-titulo{
+    font-size:30px;    
+}
+
+.secao-descricao{
+    font-size: 14px;
+    text-align: center;
+}
+
+.card{
+    width: 300px;
+    height: 350px;   
+
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+.card-img{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.img-relative{
+    position: relative;
+}
+
+.card-icone{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    height: 30%;
+
+}
+
+
+  
+
+.card-texto{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+   
+.titulo-azul{
+    color: var(--cor-primaria);
+}
+
+.linha2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    flex-wrap: wrap;
+    padding:var(--espaco-margem); /*laterais*/
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
