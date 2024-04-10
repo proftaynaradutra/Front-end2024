@@ -1,0 +1,92 @@
+
+/*Fonte: Heebo*/
+
+:root {
+  --primary: #00b98e;
+  --secondary: #effdf5;
+  --light: #effdf5;
+  --dark: #0e2e50;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  /* inserir a fonte do site */
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding:20px;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+
+.logo-texto{
+  color: var(--primary);
+  font-size:50px;
+}
+
+.menu-navegacao nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  font-size:18px;
+  list-style: none;
+}
+
+
+.menu-navegacao nav ul li a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.menu-navegacao nav ul li a:hover{
+  color: var(--primary)
+}
+
+.main{
+  display: flex;
+  height: 600px;
+}
+
+.main-col-esquerda{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.main-botao{
+  background-color: var(--primary);
+  width: 130px;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size:18px;
+
+  /*centralizar texto do botão*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+}
+
+.main-img{
+  width: 50%;
+  background-image: url('../img/main-img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
