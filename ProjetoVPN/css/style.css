@@ -85,6 +85,29 @@ main{
     font-weight: 700;
 }
 
+.main-button{
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border:2px solid var(--primary-color);
+
+    box-shadow: 0px 20px 44px -11px rgba(56,13,13,1);
+
+}
+
+.main-button:hover{
+    background-color: white;
+    color:var(--primary-color);
+}
+
 
 .main-pt2{
     width: 50%;
@@ -92,13 +115,89 @@ main{
     background-repeat: no-repeat;
     background-position: center;  
     height: 300px;
+}
+
+.section-one{
+    margin: var(--side-margin);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.section-one-pt{
+    width: 25%;
+    height: 150px;
+
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;    
    
-
-
 }
 
 
 
+.section-one-description h3{
+    color: var(--title-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-one-description p{
+    color: var(--text-color);
+}
+
+.line{
+    width: 1px;
+    height: 120px;
+    background-color: var(--text-color);
+    
+}
+
+.section-pt-two{   
+    margin: var(--side-margin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.section-two-img{
+    background-image: url("../img/img-section.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;   
+    width: 50%;
+}
+
+.section-two-description{
+    width: 50%;
+    height: 450px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:25px;
+}
+
+.section-two-description-title{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.section-two-description-list{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
 
 
 
