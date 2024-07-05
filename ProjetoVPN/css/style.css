@@ -48,7 +48,7 @@ header{
     color: var(--primary-color);
 }
 
-.button-signUp{
+.button-signUp, .card-select{
     text-decoration: none;
     color: var(--primary-color);
     border: 2px solid var(--primary-color);
@@ -56,7 +56,7 @@ header{
     padding: 6px 15px;
 }
 
-.button-signUp:hover{
+.button-signUp:hover, .card-select:hover {
     background-color: var(--primary-color);
     color: white;
 }
@@ -156,7 +156,7 @@ main{
     
 }
 
-.section-pt-two{   
+.section-two{   
     margin: var(--side-margin);
     display: flex;
     justify-content: center;
@@ -199,6 +199,72 @@ main{
     gap:5px;
 }
 
+.section-three{
+    display: flex;
+    flex-direction: column;
+    margin: var(--side-margin);
+    gap:40px;
+}
 
+.section-three-title{
+    text-align: center;
+}
+
+.section-three-title h2{
+    margin-bottom: 20px;
+}
+
+.section-three-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.section-three-card{
+    border:2px solid var(--text-color);
+    border-radius: 10px;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    width: 250px;
+    height: 600px;
+}
+
+.card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.card-description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;   
+    align-items: center;
+    flex-grow: 1;
+}
+
+.card-itens{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.card-button{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+}
+
+.card-select{
+    background-color: white;
+    width: 100px;
+    cursor: pointer;
+}
 
 
