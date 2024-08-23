@@ -1,0 +1,15 @@
+.erro{
+    border:1px solid red;
+}
+
+.item-erro-hidden{
+    display: none;    
+}
+
+.item-erro-visible{
+    display: block;
+    color: red;
+    font-size:10px;
+    display: flex; 
+    align-items: center;
+}
